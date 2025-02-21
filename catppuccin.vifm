@@ -5,15 +5,15 @@
 highlight clear
 
 " Window and UI Elements
-highlight Win             cterm=none ctermfg=default    ctermbg=none
-highlight TopLine         cterm=none ctermfg=cyan       ctermbg=none
-highlight TopLineSel      cterm=none ctermfg=magenta    ctermbg=none
-highlight StatusLine      cterm=none ctermfg=blue       ctermbg=none
-highlight Border          cterm=none ctermfg=blue       ctermbg=none
+highlight Win             cterm=none ctermfg=default ctermbg=none
+highlight TopLine         cterm=none ctermfg=cyan ctermbg=none
+highlight TopLineSel      cterm=none ctermfg=magenta ctermbg=none
+highlight StatusLine      cterm=none ctermfg=blue ctermbg=none
+highlight Border          cterm=none ctermfg=blue ctermbg=none
 
 " Selection and Cursor
-highlight Selected        cterm=bold ctermfg=magenta    ctermbg=default
-highlight CurrLine        cterm=bold ctermfg=254        ctermbg=099
+highlight Selected        cterm=bold ctermfg=magenta ctermbg=default
+highlight CurrLine        cterm=bold ctermfg=254 ctermbg=099
 
 " Command Line and Messages
 highlight WildMenu        cterm=none,reverse ctermfg=blue ctermbg=236
